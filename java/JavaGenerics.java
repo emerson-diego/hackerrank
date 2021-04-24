@@ -4,7 +4,7 @@ import java.lang.reflect.Method;
 class Printer
 {
    //Write your code here
-   public static <T> void printArray(T[] inputArray){
+   public static  void printArray(T[] inputArray){
 
     for (T element : inputArray){
         System.out.println(element);
